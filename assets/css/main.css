@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "SF Text";
+    font-weight: 200;
+    src: url("https://sf.abarba.me/SF-UI-Text-Light.otf");
+  }
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body { 
+    font-family: "SF Text";
+    background: url(https://source.unsplash.com/collection/11427183/1920x1079) no-repeat center / cover;
+    background-position: center top;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.header {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 40%;
+    margin: auto;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.content {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 20%;
+    margin: auto;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.facts {
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    display: flex;
+    width: 150px;
+    height:2.5px;
+    border-width:0;
+    color:white;
+    background-color: white;
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.direct_access {
+    position: fixed;
+    min-width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 39%;
+    margin-right: 39%;
+    width: 22%;
+    background-color: rgba(39, 39, 39, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 0.8rem;
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 50px;
+}
+
+.da {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.footer_bottom {
+    position: fixed;
+    display: flex;
+    right: 57px;
+    bottom: 57px;
+}
