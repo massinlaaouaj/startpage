@@ -1,5 +1,5 @@
 function getWeather() {
-  fetch('http://api.openweathermap.org/data/2.5/weather?q=Tarragona&appid=9378d4f0e3f903440060c0c5ec923d1a')
+  fetch('http://api.openweathermap.org/data/2.5/weather?q=Tarragona&appid=YOUR_TOKEN')
     .then(function(response) {
       return response.json();
     })
